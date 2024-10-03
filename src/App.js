@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <CustomNavbar />
       <Carousel />
+      <p>this is adarsh</p>
     </div>
   );
 }
