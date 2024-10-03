@@ -5,7 +5,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const decorations = [
-    { title: 'Party Decorations', imageUrl: '/images/party.avif', route: '/party' },
+    { title: 'Party Decorations', imageUrl: '/public/images/party.avif', route: '/party' },
     { title: 'Birthday Party Decorations', imageUrl: '/images/birthday.avif', route: '/birthday' },
     { title: 'Candlelight Dinners', imageUrl: '/images/candelight.avif', route: '/candlelight' },
     { title: 'Premium Decors', imageUrl: '/images/anniversary.avif', route: '/premium' },
