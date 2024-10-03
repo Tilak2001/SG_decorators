@@ -60,7 +60,7 @@ const App = () => {
 
         <div className="text-center py-12">
           <h1 className="text-3xl font-bold text-gray-800 mb-8">
-            Helped 5+ Million Customers Cherish Their Special Occasions
+            Helping many Customers remember Their Special Occasions
           </h1>
           <CustomerStats />
           <MediaBrands />
