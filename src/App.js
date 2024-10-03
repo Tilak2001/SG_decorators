@@ -42,7 +42,7 @@ const App = () => {
       <div className="App">
         <CustomNavbar />
         <Carousel />
-
+ <Footer />
       </div>
       <div>
         <Routes>
