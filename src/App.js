@@ -1,13 +1,9 @@
-//tilak link
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CustomNavbar from './components/CustomNavbar';
 import Carousel from './components/Carousel';
-
-//adarsh link
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DecorationsGrid from './components/DecorationsGrid';
 import PartyComponent from './components/PartyComponent';
 import BirthdayComponent from './components/BirthdayComponent';
@@ -22,29 +18,17 @@ import CustomerStats from './components/CustomerStats';
 import MediaBrands from './components/MediaBrands';
 import Footer from './components/Footer';
 
-//tilak 
-// function App() {
-//   return (
-//     <div className="App">
-//       <CustomNavbar />
-//       <Carousel />
-//       <p>this is adarsh</p>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-//adarsh
 const App = () => {
   return (
     <Router>
       <div className="App">
+        {/* Navbar Component */}
         <CustomNavbar />
+        
+        {/* Carousel Component */}
         <Carousel />
 
-      </div>
-      <div>
+        {/* Routes for different pages */}
         <Routes>
           <Route path="/" element={<DecorationsGrid />} />
           <Route path="/party" element={<PartyComponent />} />
@@ -58,6 +42,7 @@ const App = () => {
           <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} />
         </Routes>
 
+        {/* Customer Stats and Media Brands Section */}
         <div className="text-center py-12">
           <h1 className="text-3xl font-bold text-gray-800 mb-8">
             Helping many Customers remember Their Special Occasions
@@ -66,6 +51,7 @@ const App = () => {
           <MediaBrands />
         </div>
 
+        {/* Footer Component */}
         <Footer />
       </div>
     </Router>
