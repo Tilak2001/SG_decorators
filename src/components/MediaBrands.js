@@ -6,7 +6,7 @@ const MediaBrands = () => {
             {/* In the Media */}
             <div className="flex flex-col items-center">
                 <div className="flex justify-center space-x-4 mb-4">
-                    <img src="/images/news-min.png" alt="LBB" className="w-16" />
+                    <img src="SG_decorators/images/news-min.png" alt="LBB" className="w-16" />
                     {/* <img src="/images/fbstart_logo.png" alt="FbStart" className="w-16" />
                     <img src="/images/times_internet_logo.png" alt="Times Internet" className="w-16" /> */}
                 </div>
@@ -17,7 +17,7 @@ const MediaBrands = () => {
             {/* Top Brands */}
             <div className="flex flex-col items-center">
                 <div className="flex justify-center space-x-4 mb-4">
-                    <img src="/images/brands-min.png" alt="Marriott" className="w-16" />
+                    <img src="SG_decorators/images/brands-min.png" alt="Marriott" className="w-16" />
                     {/* <img src="/images/taj_logo.png" alt="Taj" className="w-16" />
                     <img src="/images/radisson_logo.png" alt="Radisson" className="w-16" /> */}
                 </div>
