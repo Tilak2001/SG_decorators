@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const decorations = [
-    { title: 'Party Decorations', imageUrl: 'SG_decorators/images/party.avif', route: '/PartyComponent' },
+    { title: 'Party Decorations', imageUrl: 'images/party.avif', route: '/PartyComponent' },
     { title: 'Birthday Party Decorations', imageUrl: 'SG_decorators/images/birthday.avif', route: '/birthday' },
     { title: 'Candlelight Dinners', imageUrl: 'SG_decorators/images/candelight.avif', route: '/candlelight' },
     { title: 'Premium Decors', imageUrl: 'SG_decorators/images/anniversary.avif', route: '/premium' },
