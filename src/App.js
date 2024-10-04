@@ -1,3 +1,52 @@
+// import React from 'react';
+// import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import CustomNavbar from './components/CustomNavbar';
+// import Carousel from './components/Carousel';
+
+// import DecorationsGrid from './components/DecorationsGrid';
+// import CustomerStats from './components/CustomerStats';
+// import MediaBrands from './components/MediaBrands';
+// import Footer from './components/Footer';
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <div className="App">
+//         {/* Navbar Component */}
+//         <CustomNavbar />
+
+//         {/* Carousel Component */}
+//         <Carousel />
+
+//         {/* Routes for different pages */}
+//         {/* <DecorationsGrid /> */}
+//         <Routes>
+//           <Route path="/" element={<DecorationsGrid />} />
+
+//         </Routes>
+
+
+//         {/* Customer Stats and Media Brands Section */}
+//         <div className="text-center py-12">
+//           <h1 className="text-3xl font-bold text-gray-800 mb-8">
+//             Helping many Customers remember Their Special Occasions
+//           </h1>
+//           <CustomerStats />
+//           <MediaBrands />
+//         </div>
+
+//         {/* Footer Component */}
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,13 +73,14 @@ const App = () => {
       <div className="App">
         {/* Navbar Component */}
         <CustomNavbar />
-        
+
         {/* Carousel Component */}
         <Carousel />
 
         {/* Routes for different pages */}
         <Routes>
           <Route path="/" element={<DecorationsGrid />} />
+          <Route path="/SG_decorators" element={<DecorationsGrid />} />
           <Route path="/party" element={<PartyComponent />} />
           <Route path="/birthday" element={<BirthdayComponent />} />
           <Route path="/candlelight" element={<CandlelightComponent />} />
