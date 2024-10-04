@@ -95,7 +95,7 @@ const App = () => {
         {/* Customer Stats and Media Brands Section */}
         <div className="text-center py-12">
           <h1 className="text-3xl font-bold text-gray-800 mb-8">
-            Helping many Customers remember Their Special Occasions
+            Helping many Customers remember Their Special Occasions.hi
           </h1>
           <CustomerStats />
           <MediaBrands />
