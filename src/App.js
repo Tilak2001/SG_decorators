@@ -174,15 +174,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CustomNavbar from './components/CustomNavbar';
 import Carousel from './components/Carousel';
 import DecorationsGrid from './components/DecorationsGrid';
-// import PartyComponent from './components/PartyComponent';
-// import BirthdayComponent from './components/BirthdayComponent';
-// import CandlelightComponent from './components/CandlelightComponent';
-// import PremiumComponent from './components/PremiumComponent';
-// import AnniversaryComponent from './components/AnniversaryComponent';
-// import FirstNightComponent from './components/FirstNightComponent';
-// import KidsBirthdayComponent from './components/KidsBirthdayComponent';
-// import BabyShowerComponent from './components/BabyShowerComponent';
-// import BalloonBouquetsComponent from './components/BalloonBouquetsComponent';
+import PartyComponent from './components/PartyComponent';
+import BirthdayComponent from './components/BirthdayComponent';
+import CandlelightComponent from './components/CandlelightComponent';
+import PremiumComponent from './components/PremiumComponent';
+import AnniversaryComponent from './components/AnniversaryComponent';
+import FirstNightComponent from './components/FirstNightComponent';
+import KidsBirthdayComponent from './components/KidsBirthdayComponent';
+import BabyShowerComponent from './components/BabyShowerComponent';
+import BalloonBouquetsComponent from './components/BalloonBouquetsComponent';
 import CustomerStats from './components/CustomerStats';
 import MediaBrands from './components/MediaBrands';
 import Footer from './components/Footer';
@@ -200,7 +200,7 @@ const App = () => {
         {/* Routes for different pages */}
         <Routes>
           <Route path="/" element={<DecorationsGrid />} />
-          {/* <Route path="/party" element={<PartyComponent />} />
+          <Route path="/party" element={<PartyComponent />} />
           <Route path="/birthday" element={<BirthdayComponent />} />
           <Route path="/candlelight" element={<CandlelightComponent />} />
           <Route path="/premium" element={<PremiumComponent />} />
@@ -208,7 +208,7 @@ const App = () => {
           <Route path="/first-night" element={<FirstNightComponent />} />
           <Route path="/kids-birthday" element={<KidsBirthdayComponent />} />
           <Route path="/baby-shower" element={<BabyShowerComponent />} />
-          <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} /> */}
+          <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} />
         </Routes>
 
         {/* Customer Stats and Media Brands Section */}
