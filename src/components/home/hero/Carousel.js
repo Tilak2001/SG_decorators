@@ -76,12 +76,14 @@ const Carousel = () => {
         }
 
         @media (max-width: 480px) {
-          /* For mobile devices */
+          /* For mobile devices, show full image */
           .carousel-container {
-            height: 50vh;
+            height: auto;
           }
           .carousel-image {
-            height: 50vh;
+            height: auto;
+            object-fit: contain; /* Show the full image */
+            max-height: 50vh;
           }
         }
       `}</style>
