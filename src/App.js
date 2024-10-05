@@ -231,29 +231,8 @@
 
 
 import React from 'react';
-<<<<<<< HEAD
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './components/home/Home'; // Import the new Home component
-=======
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CustomNavbar from './components/home/navbar/CustomNavbar';
-import Carousel from './components/home/hero/Carousel';
-import DecorationsGrid from './components/home/cards/DecorationsGrid';
-import PartyComponent from './components/home/cards/PartyComponent';
-import BirthdayComponent from './components/home/cards/BirthdayComponent';
-import CandlelightComponent from './components/home/cards/CandlelightComponent';
-import PremiumComponent from './components/home/cards/PremiumComponent';
-import AnniversaryComponent from './components/home/cards/AnniversaryComponent';
-import FirstNightComponent from './components/home/cards/FirstNightComponent';
-import KidsBirthdayComponent from './components/home/cards/KidsBirthdayComponent';
-import BabyShowerComponent from './components/home/cards/BabyShowerComponent';
-import BalloonBouquetsComponent from './components/home/cards/BalloonBouquetsComponent';
-import CustomerStats from './components/home/branding/CustomerStats';
-import MediaBrands from './components/home/branding/MediaBrands';
-import Footer from './components/home/footer/Footer';
->>>>>>> 6d534cd137c359e5c81c85e8723228b9ac3a1771
 
 const App = () => {
   return (
