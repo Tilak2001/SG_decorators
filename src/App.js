@@ -171,21 +171,21 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CustomNavbar from './components/CustomNavbar';
+import CustomNavbar from './components/home/navbar/CustomNavbar';
 import Carousel from './components/Carousel';
-import DecorationsGrid from './components/DecorationsGrid';
-import PartyComponent from './components/PartyComponent';
-import BirthdayComponent from './components/BirthdayComponent';
-import CandlelightComponent from './components/CandlelightComponent';
-import PremiumComponent from './components/PremiumComponent';
-import AnniversaryComponent from './components/AnniversaryComponent';
-import FirstNightComponent from './components/FirstNightComponent';
-import KidsBirthdayComponent from './components/KidsBirthdayComponent';
-import BabyShowerComponent from './components/BabyShowerComponent';
-import BalloonBouquetsComponent from './components/BalloonBouquetsComponent';
-import CustomerStats from './components/CustomerStats';
-import MediaBrands from './components/MediaBrands';
-import Footer from './components/Footer';
+import DecorationsGrid from './components/home/cards/DecorationsGrid';
+import PartyComponent from './components/home/cards/PartyComponent';
+import BirthdayComponent from './components/home/cards/BirthdayComponent';
+import CandlelightComponent from './components/home/cards/CandlelightComponent';
+import PremiumComponent from './components/home/cards/PremiumComponent';
+import AnniversaryComponent from './components/home/cards/AnniversaryComponent';
+import FirstNightComponent from './components/home/cards/FirstNightComponent';
+import KidsBirthdayComponent from './components/home/cards/KidsBirthdayComponent';
+import BabyShowerComponent from './components/home/cards/BabyShowerComponent';
+import BalloonBouquetsComponent from './components/home/cards/BalloonBouquetsComponent';
+import CustomerStats from './components/home/branding/CustomerStats';
+import MediaBrands from './components/home/branding/MediaBrands';
+import Footer from './components/home/footer/Footer';
 
 const App = () => {
   return (

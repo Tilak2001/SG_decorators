@@ -12,6 +12,8 @@ import img1 from '../assets/images/img1.jpeg';
 import img2 from '../assets/images/img2.jpeg';
 import img3 from '../assets/images/img3.jpeg';
 
+
+
 const Carousel = () => {
   return (
     <div className="carousel-container" style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
@@ -52,7 +54,7 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} alt="Slide 3" style={{width: '100vw',height: '100vh',objectFit: 'cover', }}
+          <img src={img3} alt="Slide 3" style={{ width: '100vw', height: '100vh', objectFit: 'cover', }}
           />
         </SwiperSlide>
       </Swiper>
