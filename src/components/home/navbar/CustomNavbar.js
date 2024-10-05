@@ -32,6 +32,8 @@
 
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import { Navbar, Nav, NavDropdown, Container, Form, FormControl, Button } from 'react-bootstrap';
 import { FaSearch, FaBirthdayCake, FaBaby, FaHeart, FaRing } from 'react-icons/fa'; // Icons for decoration items
 
@@ -64,9 +66,9 @@ const CustomNavbar = () => {
               <NavDropdown.Item href="#haldi" className="d-flex align-items-center">
                 <FaHeart className="me-2 text-danger" /> Haldi
               </NavDropdown.Item>
-              <NavDropdown.Item href="#birthday" className="d-flex align-items-center">
-                <FaBirthdayCake className="me-2 text-info" /> Birthday
-              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/birthday" className="d-flex align-items-center">
+        <FaBirthdayCake className="me-2 text-info" /> Birthday
+           </NavDropdown.Item>
               <NavDropdown.Item href="#babyshower" className="d-flex align-items-center">
                 <FaBaby className="me-2 text-success" /> Baby Shower
               </NavDropdown.Item>

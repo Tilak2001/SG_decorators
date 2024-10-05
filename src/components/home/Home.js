@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5d2030696ca688cb8d7deea7a294dc983b2c58b
 import CustomNavbar from './navbar/CustomNavbar'; // Already in 'home'
 import Carousel from './hero/Carousel'; // Go up one level to 'components'
 import DecorationsGrid from './cards/DecorationsGrid'; // Inside 'home/cards'
@@ -13,6 +16,8 @@ import FirstNightComponent from './cards/FirstNightComponent';
 import KidsBirthdayComponent from './cards/KidsBirthdayComponent';
 import BabyShowerComponent from './cards/BabyShowerComponent';
 import BalloonBouquetsComponent from './cards/BalloonBouquetsComponent';
+
+import Birthday from '../decoration/birthday';
 import CustomerStats from './branding/CustomerStats';
 import MediaBrands from './branding/MediaBrands';
 import Footer from './footer/Footer';
@@ -50,7 +55,7 @@ const Home = () => {
                 <CustomerStats />
                 <MediaBrands />
             </div>
-
+                 <Birthday />
             {/* Footer Component */}
             <Footer />
         </div>
