@@ -1,22 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import CustomNavbar from './components/home/navbar/CustomNavbar';
-// import Carousel from './components/Carousel';
-// import DecorationsGrid from './components/home/cards/DecorationsGrid';
-// import PartyComponent from './components/home/cards/PartyComponent';
-// import BirthdayComponent from './components/home/cards/BirthdayComponent';
-// import CandlelightComponent from './components/home/cards/CandlelightComponent';
-// import PremiumComponent from './components/home/cards/PremiumComponent';
-// import AnniversaryComponent from './components/home/cards/AnniversaryComponent';
-// import FirstNightComponent from './components/home/cards/FirstNightComponent';
-// import KidsBirthdayComponent from './components/home/cards/KidsBirthdayComponent';
-// import BabyShowerComponent from './components/home/cards/BabyShowerComponent';
-// import BalloonBouquetsComponent from './components/home/cards/BalloonBouquetsComponent';
-// import CustomerStats from './components/home/branding/CustomerStats';
-// import MediaBrands from './components/home/branding/MediaBrands';
-// import Footer from './components/home/footer/Footer';
 import CustomNavbar from './navbar/CustomNavbar'; // Already in 'home'
-import Carousel from '../Carousel'; // Go up one level to 'components'
+import Carousel from './hero/Carousel'; // Go up one level to 'components'
 import DecorationsGrid from './cards/DecorationsGrid'; // Inside 'home/cards'
 import PartyComponent from './cards/PartyComponent';
 import BirthdayComponent from './cards/BirthdayComponent';
@@ -27,6 +12,8 @@ import FirstNightComponent from './cards/FirstNightComponent';
 import KidsBirthdayComponent from './cards/KidsBirthdayComponent';
 import BabyShowerComponent from './cards/BabyShowerComponent';
 import BalloonBouquetsComponent from './cards/BalloonBouquetsComponent';
+
+import Birthday from '../decoration/birthday';
 import CustomerStats from './branding/CustomerStats';
 import MediaBrands from './branding/MediaBrands';
 import Footer from './footer/Footer';
@@ -64,7 +51,7 @@ const Home = () => {
                 <CustomerStats />
                 <MediaBrands />
             </div>
-
+                 <Birthday />
             {/* Footer Component */}
             <Footer />
         </div>
