@@ -16,7 +16,7 @@ import img3 from '../assets/images/img3.jpeg';
 
 const Carousel = () => {
   return (
-    <div className="carousel-container" style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
+    <div className="carousel-container" style={{ width: '100vw', height: '80vh', overflow: 'hidden' }}>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -37,7 +37,7 @@ const Carousel = () => {
             alt="Slide 1"
             style={{
               width: '100vw',
-              height: '100vh',
+              height: '75vh',
               objectFit: 'cover', // Ensures image covers the whole slide area without stretching
             }}
           />
@@ -48,13 +48,13 @@ const Carousel = () => {
             alt="Slide 2"
             style={{
               width: '100vw',
-              height: '100vh',
+              height: '75vh',
               objectFit: 'cover',
             }}
           />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} alt="Slide 3" style={{ width: '100vw', height: '100vh', objectFit: 'cover', }}
+          <img src={img3} alt="Slide 3" style={{ width: '100vw', height: '75vh', objectFit: 'cover', }}
           />
         </SwiperSlide>
       </Swiper>
