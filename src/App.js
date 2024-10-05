@@ -172,7 +172,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CustomNavbar from './components/home/navbar/CustomNavbar';
-import Carousel from './components/Carousel';
+import Carousel from './components/home/hero/Carousel';
 import DecorationsGrid from './components/home/cards/DecorationsGrid';
 import PartyComponent from './components/home/cards/PartyComponent';
 import BirthdayComponent from './components/home/cards/BirthdayComponent';

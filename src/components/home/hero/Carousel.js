@@ -8,9 +8,10 @@ import 'swiper/css/autoplay';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 // Import images
-import img1 from '../assets/images/img1.jpeg';
-import img2 from '../assets/images/img2.jpeg';
-import img3 from '../assets/images/img3.jpeg';
+import img1 from '../../../assets/images/img1.jpeg';
+import img2 from '../../../assets/images/img2.jpeg';
+import img3 from '../../../assets/images/img3.jpeg';
+
 
 
 
