@@ -230,16 +230,57 @@
 // export default App;
 
 
+// import React from 'react';
+// import { BrowserRouter as Router } from 'react-router-dom';
+// import Home from './components/home/Home'; // Import the new Home component
+
+// const App = () => {
+//   return (
+//     <Router basename="/SG_decorators">
+//       <div className="App">
+//         {/* Home component renders everything */}
+//         <Home />
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './components/home/Home'; // Import the new Home component
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/home/Home'; // Import the Home component
+// import About from './components/decoration/Birthday'; // Import the About component
+import Birthday from './components/decoration/Birthday';
+import PartyComponent from './components/decoration/PartyComponent';
+import CandlelightComponent from './components/decoration/CandlelightComponent';
+import PremiumComponent from './components/decoration/PremiumComponent';
+import AnniversaryComponent from './components/decoration/AnniversaryComponent';
+import FirstNightComponent from './components/decoration/FirstNightComponent';
+import KidsBirthdayComponent from './components/decoration/KidsBirthdayComponent';
+import BabyShowerComponent from './components/decoration/BabyShowerComponent';
+import BalloonBouquetsComponent from './components/decoration/BalloonBouquetsComponent';
 
 const App = () => {
   return (
     <Router basename="/SG_decorators">
       <div className="App">
-        {/* Home component renders everything */}
-        <Home />
+        {/* Define the routes for the application */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/birthday" element={<Birthday />} />
+          {/* Add more routes as needed */}
+          <Route path="/party" element={<PartyComponent />} />
+          {/* <Route path="/birthday" element={<Birthday />} /> */}
+          <Route path="/candlelight" element={<CandlelightComponent />} />
+          <Route path="/premium" element={<PremiumComponent />} />
+          <Route path="/anniversary" element={<AnniversaryComponent />} />
+          <Route path="/first-night" element={<FirstNightComponent />} />
+          <Route path="/kids-birthday" element={<KidsBirthdayComponent />} />
+          <Route path="/baby-shower" element={<BabyShowerComponent />} />
+          <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} />
+        </Routes>
       </div>
     </Router>
   );

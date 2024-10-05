@@ -5,10 +5,10 @@ import Footer from '../home/footer/Footer';
 // Import your local images
 import image1 from '../../assets/images/bd1.jpg';
 import image2 from '../../assets/images/bd2.jpg';
-import image3 from '../../assets/images/bd3.jpg'; 
+import image3 from '../../assets/images/bd3.jpg';
 import image4 from '../../assets/images/bd4.jpg';
 import image5 from '../../assets/images/bd5.jpg';
-import image6 from '../../assets/images/bd1.jpg'; 
+import image6 from '../../assets/images/bd1.jpg';
 
 // Add more imports for the rest of your images
 
@@ -34,24 +34,24 @@ const Birthday = () => {
     },
 
     {
-        title: "New Office Opening",
-        description:
-          "Our new office in New York has officially opened! We are excited to grow our team and foster a creative workspace.",
-        imageUrl: image4, // Use the imported image
-      },
-      {
-        title: "New Office Opening",
-        description:
-          "Our new office in New York has officially opened! We are excited to grow our team and foster a creative workspace.",
-        imageUrl: image5, // Use the imported image
-      },
+      title: "New Office Opening",
+      description:
+        "Our new office in New York has officially opened! We are excited to grow our team and foster a creative workspace.",
+      imageUrl: image4, // Use the imported image
+    },
+    {
+      title: "New Office Opening",
+      description:
+        "Our new office in New York has officially opened! We are excited to grow our team and foster a creative workspace.",
+      imageUrl: image5, // Use the imported image
+    },
 
-      {
-        title: "New Office Opening",
-        description:
-          "Our new office in New York has officially opened! We are excited to grow our team and foster a creative workspace.",
-        imageUrl: image6, // Use the imported image
-      },
+    {
+      title: "New Office Opening",
+      description:
+        "Our new office in New York has officially opened! We are excited to grow our team and foster a creative workspace.",
+      imageUrl: image6, // Use the imported image
+    },
     // Continue adding more cards with local images as needed
   ];
 
