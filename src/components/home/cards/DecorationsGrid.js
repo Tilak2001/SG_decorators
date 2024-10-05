@@ -20,23 +20,6 @@ const decorations = [
     { title: 'Personalized Decor', imageUrl: '/SG_decorators/images/personlized.avif', route: '/balloon-bouquets' },
     { title: 'Bouquets', imageUrl: '/SG_decorators/images/bouquets.avif', route: '/balloon-bouquets' },
 ];
-// const decorations = [
-//     { title: 'Party Decorations', imageUrl: '/images/party.avif', route: '/PartyComponent' },
-//     { title: 'Birthday Party Decorations', imageUrl: '/images/birthday.avif', route: '/birthday' },
-//     { title: 'Candlelight Dinners', imageUrl: '/images/candelight.avif', route: '/candlelight' },
-//     { title: 'Premium Decors', imageUrl: '/images/anniversary.avif', route: '/premium' },
-//     { title: 'Anniversary Decorations', imageUrl: '/images/premium.avif', route: '/anniversary' },
-//     { title: 'First Night Decorations', imageUrl: '/images/kid_birthday.avif', route: '/first-night' },
-//     { title: 'Kids Birthday Decorations', imageUrl: '/images/baby_shower.avif', route: '/kids-birthday' },
-//     { title: 'Baby Shower', imageUrl: '/images/welcome_baby.avif', route: '/baby-shower' },
-//     { title: 'Balloon Bouquets', imageUrl: '/images/bachelors.avif', route: '/balloon-bouquets' },
-//     { title: 'Car Decor', imageUrl: '/images/car_decor.avif', route: '/balloon-bouquets' },
-//     { title: 'First Birthday', imageUrl: '/images/first.avif', route: '/balloon-bouquets' },
-//     { title: 'Pre Wedding', imageUrl: '/images/pre_wedding.avif', route: '/balloon-bouquets' },
-//     { title: 'Event Decorations', imageUrl: '/images/ent.avif', route: '/balloon-bouquets' },
-//     { title: 'Personalized Decor', imageUrl: '/images/personlized.avif', route: '/balloon-bouquets' },
-//     { title: 'Bouquets', imageUrl: '/images/bouquets.avif', route: '/balloon-bouquets' },
-// ];
 
 const DecorationsGrid = () => {
     return (

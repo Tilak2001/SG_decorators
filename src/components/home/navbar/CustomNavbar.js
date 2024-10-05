@@ -53,7 +53,7 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="fw-semibold text-dark mx-2">
+            <Nav.Link href="/Home" className="fw-semibold text-dark mx-2">
               Home
             </Nav.Link>
 
