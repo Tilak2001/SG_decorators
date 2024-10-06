@@ -266,6 +266,7 @@ const App = () => {
   return (
     <Router basename="/SG_decorators">
       <div className="App">
+
         {/* Define the routes for the application */}
         <Routes>
           <Route path="/" element={<Home />} />
