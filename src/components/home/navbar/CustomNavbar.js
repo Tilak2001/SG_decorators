@@ -60,18 +60,26 @@ const CustomNavbar = () => {
             </Nav.Link>
 
             <NavDropdown title="Decoration" id="decoration-dropdown" className="fw-semibold mx-2">
-              <NavDropdown.Item href="#marriage" className="d-flex align-items-center">
-                <FaRing className="me-2 text-warning" /> Marriage
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#haldi" className="d-flex align-items-center">
-                <FaHeart className="me-2 text-danger" /> Haldi
-              </NavDropdown.Item>
+            
               <NavDropdown.Item as={Link} to="/birthday" className="d-flex align-items-center">
         <FaBirthdayCake className="me-2 text-info" /> Birthday
            </NavDropdown.Item>
-              <NavDropdown.Item href="#babyshower" className="d-flex align-items-center">
-                <FaBaby className="me-2 text-success" /> Baby Shower
-              </NavDropdown.Item>
+           <NavDropdown.Item as={Link} to="/Engagement" className="d-flex align-items-center">
+        <FaRing className="me-2 text-info" /> Engagement
+           </NavDropdown.Item>
+           <NavDropdown.Item as={Link} to="/Wedding" className="d-flex align-items-center">
+        <FaHeart className="me-2 text-info" /> Wedding
+           </NavDropdown.Item>
+           <NavDropdown.Item as={Link} to="/Haldi" className="d-flex align-items-center">
+        <FaRing className="me-2 text-info" /> Haldi
+           </NavDropdown.Item>
+           <NavDropdown.Item as={Link} to="/Babyshower" className="d-flex align-items-center">
+        <FaBaby className="me-2 text-info" /> Babyshower
+           </NavDropdown.Item>
+           <NavDropdown.Item as={Link} to="/Namingceromony" className="d-flex align-items-center">
+        <FaBaby className="me-2 text-info" /> Namingceromony
+           </NavDropdown.Item>
+        
             </NavDropdown>
 
             <Nav.Link href="#about" className="fw-semibold text-dark mx-2">

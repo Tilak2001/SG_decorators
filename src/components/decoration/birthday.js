@@ -3,12 +3,12 @@ import CustomNavbar from '../home/navbar/CustomNavbar'; // Import CustomNavbar
 import Footer from '../home/footer/Footer';
 
 // Import your local images
-import image1 from '../../assets/images/bd1.jpg';
-import image2 from '../../assets/images/bd2.jpg';
-import image3 from '../../assets/images/bd3.jpg';
-import image4 from '../../assets/images/bd4.jpg';
-import image5 from '../../assets/images/bd5.jpg';
-import image6 from '../../assets/images/bd1.jpg';
+import image1 from '../../assets/birthday/bd1.jpg';
+import image2 from '../../assets/birthday/bd2.jpg';
+import image3 from '../../assets/birthday/bd3.jpg';
+import image4 from '../../assets/birthday/bd4.jpg';
+import image5 from '../../assets/birthday/bd5.jpg';
+import image6 from '../../assets/birthday/bd1.jpg';
 
 // Add more imports for the rest of your images
 

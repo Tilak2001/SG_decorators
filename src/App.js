@@ -253,6 +253,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home/Home'; // Import the Home component
 // import About from './components/decoration/Birthday'; // Import the About component
 import Birthday from './components/decoration/Birthday';
+import Engagement from './components/decoration/Engagement';
+import Haldi from './components/decoration/Haldi';
+import Namingceromony from './components/decoration/Namingceromony';
+import Babyshower from './components/decoration/BabyShower';
+import Wedding from './components/decoration/Wedding';
 import PartyComponent from './components/decoration/PartyComponent';
 import CandlelightComponent from './components/decoration/CandlelightComponent';
 import PremiumComponent from './components/decoration/PremiumComponent';
@@ -270,7 +275,12 @@ const App = () => {
         {/* Define the routes for the application */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/birthday" element={<Birthday />} />
+          <Route path="/Birthday" element={<Birthday />} />
+          <Route path="/Engagement" element={<Engagement />} />
+          <Route path="/Haldi" element={<Haldi />} />
+          <Route path="/Wedding" element={<Wedding />} />
+          <Route path="/Namingceromony" element={<Namingceromony />} />
+          <Route path="/Babyshower" element={<Babyshower />} />
           {/* Add more routes as needed */}
           <Route path="/party" element={<PartyComponent />} />
           {/* <Route path="/birthday" element={<Birthday />} /> */}
