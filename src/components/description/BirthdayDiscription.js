@@ -9,7 +9,7 @@ const BirthdayDiscription = () => {
                 <CustomNavbar />
             </div>
             <div>
-                <p>thid is description page</p>
+                <p>thid is birthday description page</p>
             </div>
             <div>
                 <Footer />

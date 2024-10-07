@@ -306,11 +306,8 @@ import FirstNightComponent from './components/decoration/FirstNightComponent';
 import KidsBirthdayComponent from './components/decoration/KidsBirthdayComponent';
 import BabyShowerComponent from './components/decoration/BabyShowerComponent';
 import BalloonBouquetsComponent from './components/decoration/BalloonBouquetsComponent';
-<<<<<<< HEAD
-import BirthdayDiscription from './components/description/BirthdayDiscription';
-=======
 import About from './components/About/About';
->>>>>>> 04ba8cc07ddc5b72ae4e68e90783638fea7c59eb
+import BirthdayDiscription from './components/description/BirthdayDiscription';
 
 const App = () => {
   return (
@@ -334,18 +331,10 @@ const App = () => {
           <Route path="/kids-birthday" element={<KidsBirthdayComponent />} />
           <Route path="/baby-shower" element={<BabyShowerComponent />} />
           <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} />
-<<<<<<< HEAD
-          {/* <Route path="/birthday-description" element={<BirthdayDiscription />} /> */}
           <Route path="/birthday-description" element={<BirthdayDiscription />} />
 
-          {/* Add a fallback route in case no route matches */}
-          <Route path="*" element={<Home />} /> {/* Redirect any unmatched routes to Home */}
-=======
+          <Route path="/about" element={<About />} />
 
-      
-        <Route path="/about" element={<About />} />
-
->>>>>>> 04ba8cc07ddc5b72ae4e68e90783638fea7c59eb
         </Routes>
       </div>
     </Router>
