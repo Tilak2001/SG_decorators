@@ -334,6 +334,7 @@ const App = () => {
           <Route path="/birthday-description" element={<BirthdayDiscription />} />
 
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<Home />} /> {/* Redirect any unmatched routes to Home */}
 
         </Routes>
       </div>
