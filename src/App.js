@@ -266,6 +266,7 @@ import FirstNightComponent from './components/decoration/FirstNightComponent';
 import KidsBirthdayComponent from './components/decoration/KidsBirthdayComponent';
 import BabyShowerComponent from './components/decoration/BabyShowerComponent';
 import BalloonBouquetsComponent from './components/decoration/BalloonBouquetsComponent';
+import About from './components/About/About';
 
 const App = () => {
   return (
@@ -291,6 +292,10 @@ const App = () => {
           <Route path="/kids-birthday" element={<KidsBirthdayComponent />} />
           <Route path="/baby-shower" element={<BabyShowerComponent />} />
           <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} />
+
+      
+        <Route path="/about" element={<About />} />
+
         </Routes>
       </div>
     </Router>

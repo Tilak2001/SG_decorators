@@ -81,10 +81,11 @@ const CustomNavbar = () => {
            </NavDropdown.Item>
         
             </NavDropdown>
-
-            <Nav.Link href="#about" className="fw-semibold text-dark mx-2">
-              About
-            </Nav.Link>
+            
+            <Link to="/about" className="fw-semibold text-dark py-2">
+          About
+        </Link>
+      
           </Nav>
 
           {/* Search Form */}
