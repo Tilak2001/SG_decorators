@@ -7,10 +7,10 @@ import 'swiper/css/autoplay';
 
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-// Import images
-import img1 from '../../../assets/images/img1.jpeg';
-import img2 from '../../../assets/images/img2.jpeg';
-import img3 from '../../../assets/images/img3.jpeg';
+// Import carousel
+import img1 from '../../../assets/carousel/img1.jpeg';
+import img2 from '../../../assets/carousel/img2.jpeg';
+import img3 from '../../../assets/carousel/img3.jpeg';
 
 const Carousel = () => {
   return (

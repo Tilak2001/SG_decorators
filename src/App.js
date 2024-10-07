@@ -292,7 +292,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/home/Home'; // Import the Home component
-import Birthday from './components/decoration/Birthday';
+import Birthday from './components/decoration/birthday';
+import Engagement from './components/decoration/Engagement';
+import Haldi from './components/decoration/Haldi';
+import Namingceromony from './components/decoration/Namingceromony';
+import Babyshower from './components/decoration/BabyShower';
+import Wedding from './components/decoration/Wedding';
 import PartyComponent from './components/decoration/PartyComponent';
 import CandlelightComponent from './components/decoration/CandlelightComponent';
 import PremiumComponent from './components/decoration/PremiumComponent';
@@ -301,6 +306,7 @@ import FirstNightComponent from './components/decoration/FirstNightComponent';
 import KidsBirthdayComponent from './components/decoration/KidsBirthdayComponent';
 import BabyShowerComponent from './components/decoration/BabyShowerComponent';
 import BalloonBouquetsComponent from './components/decoration/BalloonBouquetsComponent';
+import BirthdayDiscription from './components/description/BirthdayDiscription';
 
 const App = () => {
   return (
@@ -309,7 +315,13 @@ const App = () => {
         {/* Define the routes for the application */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/birthday" element={<Birthday />} />
+          <Route path="/Birthday" element={<Birthday />} />
+          <Route path="/Engagement" element={<Engagement />} />
+          <Route path="/Haldi" element={<Haldi />} />
+          <Route path="/Wedding" element={<Wedding />} />
+          <Route path="/Namingceromony" element={<Namingceromony />} />
+          <Route path="/Babyshower" element={<Babyshower />} />
+          {/* Add more routes as needed */}
           <Route path="/party" element={<PartyComponent />} />
           <Route path="/candlelight" element={<CandlelightComponent />} />
           <Route path="/premium" element={<PremiumComponent />} />
@@ -318,6 +330,9 @@ const App = () => {
           <Route path="/kids-birthday" element={<KidsBirthdayComponent />} />
           <Route path="/baby-shower" element={<BabyShowerComponent />} />
           <Route path="/balloon-bouquets" element={<BalloonBouquetsComponent />} />
+          {/* <Route path="/birthday-description" element={<BirthdayDiscription />} /> */}
+          <Route path="/birthday-description" element={<BirthdayDiscription />} />
+
           {/* Add a fallback route in case no route matches */}
           <Route path="*" element={<Home />} /> {/* Redirect any unmatched routes to Home */}
         </Routes>
