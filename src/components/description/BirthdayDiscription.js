@@ -16,6 +16,7 @@ import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Footer from '../home/footer/Footer';
+import Bar from './Bar';
 
 const BirthdayDiscription = () => {
     const [showMoreReviews, setShowMoreReviews] = useState(false);
@@ -403,7 +404,9 @@ const BirthdayDiscription = () => {
 
             <div>
                 <Footer />
+                
             </div>
+            <Bar />
         </div >
     );
 };
