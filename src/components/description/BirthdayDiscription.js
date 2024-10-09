@@ -10,7 +10,7 @@ import image3 from '../../assets/birthday/bd3.jpg';
 import image4 from '../../assets/birthday/bd4.jpg';
 import image5 from '../../assets/birthday/bd5.jpg';
 import CustomNavbar from '../home/navbar/CustomNavbar';
-import { library } from '@fortawesome/fontawesome-svg-core';
+// import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
@@ -85,42 +85,46 @@ const BirthdayDiscription = () => {
 
     return (
         <div>
-            <div className={`w-full transition-transform duration-300 ${showNavbar ? 'translate-y-0' : '-translate-y-full'} sticky top-0 left-0 right-0 z-50 bg-white`}>
+            <style>
+                {`
+                    .shadow-box {
+                padding: 16px;
+                background-color: white;
+                border-radius: 2px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            }
+            .sticky-content {
+                position: sticky;
+                top: 16px;
+                width: 100%;
+                z-index: 1; /* Lower z-index to ensure it stays beneath the navbar */
+            }
+            .relative-content {
+                position: relative;
+                z-index: 1;
+            }
+                `}
+            </style>
+
+
+            {/* <div className={`w-full transition-transform duration-300 ${showNavbar ? 'translate-y-0' : '-translate-y-full'} sticky top-0 left-0 right-0 z-5000 bg-white`}>
+
+                <CustomNavbar />
+            </div> */}
+            <div
+                className={`w-full transition-transform duration-300 ${showNavbar ? 'translate-y-0' : '-translate-y-full'} sticky top-0 left-0 right-0 z-[9999] bg-white`}
+            >
                 <CustomNavbar />
             </div>
 
-            <div className={`flex flex-col md:flex-row p-4 transition-all duration-300 ${showNavbar ? 'pt-16' : 'pt-4'}`}>
-                <style>
-                    {`
-                    .shadow-box {
-                        padding: 16px;
-                        background-color: white;
-                        border-radius: 2px;
-                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-                    }
-                    .sticky {
-                        position: sticky;
-                        top: 16px;
-                        width: 100%;
-                        z-index: 10;
-                    }
-                    .fixed {
-                        position: fixed;
-                        top: 16px;
-                        width: calc(50% - 32px);
-                        z-index: 10;
-                    }
-                        .navbar-height {
-    height: 60px; /* Adjust this value based on your actual navbar height */
-}
-                `}
-                </style>
 
-                {/* Left Side: Image Carousel */}
+
+            <div className={`flex flex-col md:flex-row p-4 transition-all duration-300 ${showNavbar ? 'pt-16' : 'pt-4'}`}>
+
                 <div className="w-full md:w-1/2 shadow-md">
                     <div
                         ref={imageRef}
-                        className={`${isImageSticky ? 'sticky' : isImageFixed ? 'relative' : ''}`}
+                        className={`${isImageSticky ? 'sticky-content' : 'relative-content'}`}
                     >
                         <div className="relative">
                             <img
@@ -128,6 +132,7 @@ const BirthdayDiscription = () => {
                                 alt="Decor Item"
                                 className="rounded-lg object-cover w-full h-96 shadow-md"
                             />
+                            {/* Carousel Buttons */}
                             <div className="absolute inset-0 flex justify-between items-center">
                                 <button
                                     onClick={() => setSelectedImage((selectedImage - 1 + images.length) % images.length)}
@@ -143,6 +148,8 @@ const BirthdayDiscription = () => {
                                 </button>
                             </div>
                         </div>
+
+                        {/* Thumbnails */}
                         <div className="flex mt-2 space-x-2">
                             {images.map((image, index) => (
                                 <img
