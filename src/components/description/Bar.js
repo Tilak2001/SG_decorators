@@ -16,7 +16,7 @@ const Bar = () => {
     <Navbar bg="light" expand="lg" sticky="top" className="shadow-sm" style={{ padding: '0.2rem 1rem' }}>
       <Container fluid> {/* Use fluid container for better responsiveness */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-       
+
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           </Nav>

@@ -27,6 +27,7 @@ const BirthdayDiscription = () => {
     const [isImageFixed, setIsImageFixed] = useState(false);
 
 
+
     //navbar actions
     const [showNavbar, setShowNavbar] = useState(true);
     let lastScrollY = 0;
@@ -407,13 +408,15 @@ const BirthdayDiscription = () => {
 
 
             </div>
+            <div className="sticky bottom-0 left-0 right-0 bg-white text-white p-4 shadow-lg transition-transform duration-300 ease-in-out">
 
+                <Bar />
+            </div>
 
             <div>
                 <Footer />
-                
+
             </div>
-            <Bar />
         </div >
     );
 };
